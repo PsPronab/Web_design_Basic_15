@@ -1,0 +1,16 @@
+.spaisal
+{
+    height: 200px;
+    width: 300px;
+    background: #0a72f3;
+     transition: all 2s; 
+    transition-timing-function: else;
+    /* transition-delay: 2s; */
+}
+.spaisal:hover
+{
+    height: 100px;
+    width: 500px; 
+    background: red; 
+    transform: rotate(10deg);
+}
